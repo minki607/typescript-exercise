@@ -27,3 +27,6 @@ const person: { name: string; age: number } = {
 
 // TS 불리언
 const show: boolean = true;
+
+
+n
