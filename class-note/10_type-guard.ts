@@ -18,7 +18,7 @@ console.log(min.name);
 const isDeveloper = (target: Developer | Person): target is Developer => {
     return (target as Developer).skill !== undefined;
 }
-
+ 
 if (isDeveloper(min)) {
     console.log(min.skill)
 } else {
